@@ -1,1 +1,0 @@
-savedcmd_/home/amir/kerneldev/day3/heartbeat_module.mod := printf '%s\n'   heartbeat_module.o | awk '!x[$$0]++ { print("/home/amir/kerneldev/day3/"$$0) }' > /home/amir/kerneldev/day3/heartbeat_module.mod
