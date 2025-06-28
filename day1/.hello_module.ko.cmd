@@ -1,0 +1,1 @@
+savedcmd_/home/amir/kerneldev/day1/hello_module.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/amir/kerneldev/day1/hello_module.ko /home/amir/kerneldev/day1/hello_module.o /home/amir/kerneldev/day1/hello_module.mod.o
